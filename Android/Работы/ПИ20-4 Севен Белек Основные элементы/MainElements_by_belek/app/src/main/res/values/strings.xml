@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MainElements_by_belek</string>
+    <string name="hello_world">Hello world from XML</string>
+    <string name="button">Update the TextView</string>
+    <string name="hint">A name</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
