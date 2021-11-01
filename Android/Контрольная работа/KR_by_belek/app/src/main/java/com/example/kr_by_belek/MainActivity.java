@@ -129,9 +129,6 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         }
         else{
-            Bundle b = new Bundle();
-            b.putStringArray("values", new String[]{pulse_1.getText().toString(), pulse_2.getText().toString()});
-            intent.putExtras(b);
             startActivity(intent);}
     }
 
