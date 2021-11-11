@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="FE6FAEBF-138B-9BFA-2CE0-95B15ACFA130">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-11 00:43:41 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

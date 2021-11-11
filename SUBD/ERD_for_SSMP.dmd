@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD_for_SSMP" id="F3AE7485-AE28-DA94-ECAE-36509DE30B64" version="3.5">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-11 00:43:41 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F3AE7485-AE28-DA94-ECAE-36509DE30B64</designId>
+</OSDM_Design>

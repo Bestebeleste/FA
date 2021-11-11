@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="49EBC76C-34F9-D9F5-C264-952AF1E27E8C" mainViewID="16191C8B-1FD9-CF8D-60F1-F98365FD63CB">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-11 00:43:41 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

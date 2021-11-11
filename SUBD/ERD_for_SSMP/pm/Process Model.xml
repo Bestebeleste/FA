@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="358EEE69-A7F7-E1E9-4300-50A552872E1B">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-11 00:43:41 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
