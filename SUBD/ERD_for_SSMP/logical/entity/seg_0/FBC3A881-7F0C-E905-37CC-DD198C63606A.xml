@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBC3A881-7F0C-E905-37CC-DD198C63606A" name="Injured">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBC3A881-7F0C-E905-37CC-DD198C63606A" name="БОЛЬНОЙ">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:38:42 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FullName" id="2DA91BA5-6E8D-DA5A-BEB8-80A2EDCD15FD">
+<Attribute name="фамилия" id="F0A6F1EE-DE29-3F4C-0669-0532EE2A3868">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 04:39:12 UTC</createdTime>
+<createdTime>2021-11-18 10:35:42 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
@@ -39,7 +39,32 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Citizenship" id="D4975103-CA68-2FB1-A20D-E53E15C6B104">
+<Attribute name="имя" id="DA1C45C4-E946-4146-D1C7-4B984CDFA183">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-18 10:35:48 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="отчество" id="537D9F10-E11A-C806-EE7B-9381CE127816">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-18 10:35:50 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Гражданство" id="D4975103-CA68-2FB1-A20D-E53E15C6B104">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:39:19 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -51,7 +76,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Sex" id="118023C9-F046-2863-CCDB-B2DCAF6B1EF5">
+<Attribute name="Пол" id="118023C9-F046-2863-CCDB-B2DCAF6B1EF5">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:39:20 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -64,7 +89,7 @@
 <dataTypeSize>2 CHAR</dataTypeSize>
 <ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Age" id="D1964CE6-068B-53AD-6C8A-BB876B83F473">
+<Attribute name="возраст" id="D1964CE6-068B-53AD-6C8A-BB876B83F473">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:39:26 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -76,7 +101,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Drug" id="4D8676D6-7AB2-EAEC-1127-58E2EE68B46D">
+<Attribute name="медикаменты" id="4D8676D6-7AB2-EAEC-1127-58E2EE68B46D">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:39:26 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -89,32 +114,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Brigade" id="ACCA9074-F741-EEC8-E807-4EE87C0107A3">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 04:39:27 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DateTime" id="AE29F6AF-1120-C927-D596-DDFFAA5FC291">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 04:39:28 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Result" id="8FD90DAF-F136-2883-BF17-F3865A160B22">
+<Attribute name="результат" id="8FD90DAF-F136-2883-BF17-F3865A160B22">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:53:47 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -124,6 +124,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="бригада" id="729175D1-5026-FB72-752A-3DB6131F5396">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-16 20:46:43 UTC</createdTime>
+<generatorID>E8B669FC-ACE2-3E9D-4393-7E55D2563CBB</generatorID>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<referedAttribute>469BA4D2-1A76-DB60-AAF2-F96DEE5514E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="дата и время" id="48300C83-D82D-27D2-3628-8864972776BB">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-16 20:46:43 UTC</createdTime>
+<generatorID>E8B669FC-ACE2-3E9D-4393-7E55D2563CBB</generatorID>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<referedAttribute>DB05A470-589B-8A35-065A-AB213C3AB40E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

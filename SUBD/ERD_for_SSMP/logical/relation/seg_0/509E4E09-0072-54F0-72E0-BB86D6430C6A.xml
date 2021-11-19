@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="509E4E09-0072-54F0-72E0-BB86D6430C6A">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-16 20:45:33 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<sourcePk>C0AA01A6-0761-D517-D338-D647CC0099BD</sourcePk>
+<targetPk>F84A5870-6517-7587-7F58-7907F04565A6</targetPk>
+<identifying>false</identifying>
+<nameOnSource>обслужила</nameOnSource>
+<nameOnTarget>обслужен</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6EFF1DEC-7F90-3E66-1841-45E41DDD54BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FBC3A881-7F0C-E905-37CC-DD198C63606A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
