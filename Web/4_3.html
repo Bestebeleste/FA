@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		let arr = []
+		let srznach_pol = 0
+		srznach_pol = parseInt(srznach_pol)
+		let val_pol = 0 
+		val_pol = parseInt(val_pol)
+		let srznach_otr = 0
+		srznach_otr = parseInt(srznach_otr)
+		let val_otr = 0
+		val_otr = parseInt(val_otr)
+		let val_zero = 0
+		val_zero = parseInt(val_zero)
+		for(let i=0; i<=15; i++) {
+			arr[i] = Math.round(Math.random() * (30+15) -15);
+			if(arr[i]>0){
+				val_pol +=1;
+				srznach_pol += arr[i];
+			}
+			else if (arr[i]<0){
+				val_otr += 1
+				srznach_otr += arr[i]
+			}
+			else{
+				val_zero +=1
+			}
+}
+		document.writeln(arr)
+		document.writeln("Среднее значение положительных: "+Number(srznach_pol/val_pol))
+		document.writeln("Среднее значение отрицательный: "+Number(srznach_otr/val_otr))
+		document.writeln("Количество нулей: "+Number(val_zero))
+	</script>
+</html>

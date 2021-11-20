@@ -3,11 +3,12 @@
 <head>
 	<script type="text/javascript">	
 		let str = prompt()	
-		str = str.toLowerCase().replace(/[^a-z]+/g,"");
-  			if (str === str.split("").reverse().join("")){
-  			  return str;
-  			} else {
-  				return "This is not a palindrome";
+		str = str.toLowerCase();
+  			if (str == str.split("").reverse().join("")){
+  				alert("Это палиндром")
+ 		 }
+ 		 else{
+ 		 	alert("это не палиндром")
  		 }
 	</script>
 </html>
