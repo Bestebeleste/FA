@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript">	
-		let val = 0 
-		let arr = []
-		val = parseInt(val)
-		for(let i=0; i<=100000; i++) {
-			arr[i] = Math.round(Math.random()*3);
- 		 	if(arr[i]==0){
- 		 		val+=1;
- 		 	}
- 		 }
- 		alert(val)
-	</script>
+<script type="text/javascript">
+let val = 1
+let fac = 1
+fac = parseInt(fac)
+val = parseInt(val)
+while(val<18){
+fac*=val
+val +=1
+}
+alert(fac)
+</script>
 </html>

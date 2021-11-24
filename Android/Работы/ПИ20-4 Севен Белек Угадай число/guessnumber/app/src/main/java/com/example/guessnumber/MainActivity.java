@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button guessBtn;
     Button LevelHard;
     Button LevelEasy;
+
 
     int guess;
     boolean finishCheck;
@@ -35,13 +37,37 @@ public class MainActivity extends AppCompatActivity {
         guessTxt.setTransformationMethod(null);
     }
 
-    public void LvlHrd_Click(View v){
+    public boolean onCreateOptionsMenu(Menu menu){
+        menu.add(0, 1, 1, "hard level");
+        menu.add(0, 2, 2, "easy level");
+        menu.add(0,3,3, "exit");
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        StringBuilder sb = new StringBuilder();
+
+        if (item.getItemId()==3){
+            Exit_Click();
+        }
+        if (item.getItemId()==1){
+            LvlHrd_Click();
+        }
+        if (item.getItemId()==2){
+            LvlEasy_Click();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void LvlHrd_Click(){
         guess = (int) (Math.random()*100);
         guessInf.setText(getResources().getString(R.string.try_to_guess_100));
         lvlCheck=false;
     }
 
-    public void LvlEasy_Click(View v){
+    public void LvlEasy_Click(){
         guess = (int) (Math.random()*10);
         guessInf.setText(getResources().getString(R.string.try_to_guess_10));
         lvlCheck=true;
@@ -85,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         }
         guessTxt.setText("");
     }
-    public void Exit_Click(View v){
+    public void Exit_Click(){
         finish();
         System.exit(0);
     }
