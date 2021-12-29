@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0A03AF0-FBE8-507B-21D8-0516994A02AD" name="ВЫЗОВ">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0A03AF0-FBE8-507B-21D8-0516994A02AD" name="ЗВОНИНФ">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 00:44:03 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
@@ -15,18 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="бригада" id="469BA4D2-1A76-DB60-AAF2-F96DEE5514E4">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:16 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="дата и время" id="DB05A470-589B-8A35-065A-AB213C3AB40E">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 00:44:38 UTC</createdTime>
@@ -48,7 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="повод" id="A75DC60B-26E8-0193-30D6-3D92460F5023">
@@ -60,7 +48,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="номер телефона" id="33B372A8-4270-1362-801B-6C35FF878B6F">
@@ -72,44 +60,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="фамилия" id="9A61BCA1-3196-22CF-B982-719F91CAD3DA">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:38 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="возраст" id="950A59F4-EE02-6966-1AE2-819BA58E811D">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:38 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="медицинское учреждение" id="79A431FC-FF80-5F57-1992-F7E76D3BE398">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:38 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="район" id="96229FB3-C1EC-C2F4-DF6A-9C4642C8BCE1">
@@ -122,56 +73,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="состояние" id="50C6BB67-E895-A146-5A52-D9B7FEC3B56D">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:39 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="симптомы" id="1E6CE4E4-3DFF-F395-7057-C64C07D5C176">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:39 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Медикаменты " id="82D5C75E-C280-26DF-05CF-10A648F5911C">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:39 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Результат" id="3F4E7476-AB86-B834-6202-086B1BC4AF2A">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:39 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="дополнительная информация" id="502496B9-1576-775C-6171-EBC83B873561">
@@ -187,18 +88,61 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A5CDE22F-A0B1-7884-8A15-94FF8F1FAF57" name="CALL PK">
+<Attribute name="БОЛЬНОЙ ID" id="509CB6D1-44A8-C947-6C66-D48AD25426EE">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 00:44:35 UTC</createdTime>
+<createdTime>2021-12-16 00:23:57 UTC</createdTime>
+<generatorID>735D39F4-70F1-FCF3-9F58-D0878827FA6C</generatorID>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
 </engineerTo>
+<referedAttribute>F71E2E6D-BB2A-0FDE-C3DF-871116E36F6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="БРИГАДА Номер бригады" id="E8EC7211-B2BC-8225-FD0F-284E4D9CDE3A">
+<createdBy>Belek</createdBy>
+<createdTime>2021-12-16 00:26:31 UTC</createdTime>
+<generatorID>3F0F38F0-3A24-C77A-A0F5-FEB081EAAA7D</generatorID>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<referedAttribute>45FBEC5B-D615-8E1D-C717-44EBF6F49AE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="93C4F599-61B2-04CE-D7F2-3DF8DB2F03E1">
+<createdBy>Belek</createdBy>
+<createdTime>2021-12-16 00:34:09 UTC</createdTime>
+<generatorID>EA61DB05-99A8-5D2A-A823-52EAE3FDC5DB</generatorID>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BE928BD9-32D4-1E2B-498E-722EF85DE361</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5CDE22F-A0B1-7884-8A15-94FF8F1FAF57" name="ЗВОНИНФ_PK">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-11 00:44:35 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>469BA4D2-1A76-DB60-AAF2-F96DEE5514E4</attributeRef>
 <attributeRef>DB05A470-589B-8A35-065A-AB213C3AB40E</attributeRef>
 </usedAttributes>
 </identifier>

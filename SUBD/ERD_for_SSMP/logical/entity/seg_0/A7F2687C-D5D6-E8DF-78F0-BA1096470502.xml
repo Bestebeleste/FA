@@ -36,7 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Имя" id="B79BA066-3C13-C0F9-FE6A-88506908536D">
@@ -49,7 +49,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Должность" id="610693F6-136C-BA39-13D4-250359EF9A20">
@@ -61,7 +61,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Специальность" id="58E58CD4-5729-7B36-4847-A4ED94FDB992">
@@ -73,7 +73,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Стаж" id="669B313E-0F18-61F7-2175-321B2AF45EF9">
@@ -85,7 +85,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="СНИЛС" id="8B6399AD-8C3B-5544-84E8-18BFFCA91731">
@@ -97,7 +97,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Контактные данные" id="378F47AA-FF71-AF07-F034-D7C25CD8B9F7">
@@ -110,7 +110,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Смены" id="1868FD86-AABD-2434-DD4E-F86A21696CAA">
@@ -135,7 +135,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ставка за смену" id="C65B0DC5-D562-F629-9B40-122B61E6E8E3">
@@ -152,12 +152,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D84DB8A1-1E17-9DF3-2256-0758F92C9455" name="Doctor PK">
+<identifier id="D84DB8A1-1E17-9DF3-2256-0758F92C9455" name="ВРАЧ_PK">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-11 04:19:44 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

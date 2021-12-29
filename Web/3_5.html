@@ -3,12 +3,15 @@
 <head>
 	<script type="text/javascript">	
 		let str = prompt()	
-		str = str.toLowerCase();
-  			if (str == str.split("").reverse().join("")){
-  				alert("Это палиндром")
- 		 }
- 		 else{
- 		 	alert("это не палиндром")
- 		 }
+		function palindrom(str){
+			this.str = str.toLowerCase();
+	  			if (this.str == this.str.split("").reverse().join("")){
+	  				alert("Это палиндром")
+	 		 }
+	 		 else{
+	 		 	alert("это не палиндром")
+	 		 }
+ 		}
+ 		palindrom(str)
 	</script>
 </html>

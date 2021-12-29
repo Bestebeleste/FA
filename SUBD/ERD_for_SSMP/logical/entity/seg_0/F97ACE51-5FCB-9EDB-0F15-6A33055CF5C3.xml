@@ -39,14 +39,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9B183267-EE4E-D2F1-1B81-F0DA3A766011" name="DRUGPACK PK">
+<Attribute name="ЛЕКАРСТВО ID" id="9A211C9F-A3AB-1918-ACBE-5E19CC371DCC">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-18 07:49:03 UTC</createdTime>
+<createdTime>2021-12-16 00:16:30 UTC</createdTime>
+<generatorID>71129D82-5FDF-21B2-B50E-465EC94FD353</generatorID>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+</engineerTo>
+<referedAttribute>2C4AECD6-B708-5AEA-6985-E72ACFCCDB4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B183267-EE4E-D2F1-1B81-F0DA3A766011" name="АПТЕЧКА_PK">
+<createdBy>Belek</createdBy>
+<createdTime>2021-11-18 07:49:03 UTC</createdTime>
+<ownerDesignName>ERD_for_SSMP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
