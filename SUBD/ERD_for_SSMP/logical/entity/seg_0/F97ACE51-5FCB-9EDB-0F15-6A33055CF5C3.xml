@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F97ACE51-5FCB-9EDB-0F15-6A33055CF5C3" name="АПТЕЧКА">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F97ACE51-5FCB-9EDB-0F15-6A33055CF5C3" name="KIT">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-18 07:46:42 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,32 +20,32 @@
 <createdTime>2021-11-18 07:46:53 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="количество" id="CEB5D8F0-1E73-1129-BA5B-D2516869281F">
+<Attribute name="AMOUNT" id="CEB5D8F0-1E73-1129-BA5B-D2516869281F">
 <createdBy>Belek</createdBy>
 <createdTime>2021-11-18 07:48:05 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ЛЕКАРСТВО ID" id="9A211C9F-A3AB-1918-ACBE-5E19CC371DCC">
+<Attribute name="ID1" id="AAEFD11C-F32A-91AF-8E93-88D4E1F818F5">
 <createdBy>Belek</createdBy>
-<createdTime>2021-12-16 00:16:30 UTC</createdTime>
-<generatorID>71129D82-5FDF-21B2-B50E-465EC94FD353</generatorID>
+<createdTime>2021-12-30 07:26:21 UTC</createdTime>
+<generatorID>340C058C-1096-F25B-2454-D4BAC6816BA0</generatorID>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="true"/>
+<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
 </engineerTo>
 <referedAttribute>2C4AECD6-B708-5AEA-6985-E72ACFCCDB4E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +61,7 @@
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3EC782CE-BCE4-7D26-96EF-CA3BE8A7C496" value="false"/>
+<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

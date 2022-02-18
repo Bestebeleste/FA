@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B090C682-F08A-FB72-BAB9-02083B6BDCDB" name="MEDICAL_INSTITUTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F4580A8-CF08-802F-AC7D-3FE2A77F6473" name="SYMPTOMS">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:11:35 UTC</createdTime>
+<createdTime>2021-12-16 00:17:11 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="CFCD2BF6-1A8C-8ECD-1B2C-78ACA98EFEB2">
+<Attribute name="ID" id="40CE552D-D019-F311-6731-2211E284CF28">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:11:53 UTC</createdTime>
+<createdTime>2021-12-16 00:17:21 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
@@ -27,22 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="9D345A23-86C3-4E7D-6B5B-74F19E6544AC">
+<Attribute name="Name" id="71879662-3A3D-289C-CC68-B84D65F8C448">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:11:53 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Type" id="9C7CEE60-A8B1-D9A5-FC21-D98C52FEA14B">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:11:54 UTC</createdTime>
+<createdTime>2021-12-30 04:13:36 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <engineerTo>
 <item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
@@ -51,27 +38,14 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Contact info" id="98693C8A-4A71-2562-782D-BFF9AA69CFD5">
-<createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:11:54 UTC</createdTime>
-<ownerDesignName>ERD_for_SSMP</ownerDesignName>
-<engineerTo>
-<item key="C0A10891-FCF3-FCD9-E8A2-652E564FE1A6" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F23C4C67-9491-A84F-43CB-C7C410D16C2F" name="МЕДИЦИНСКОЕ_УЧРЕЖДЕНИЕ_PK">
+<identifier id="A25F30C7-D36C-B694-EFC9-B8A2AF9777EB" name="СИМПТОМЫ PK">
 <createdBy>Belek</createdBy>
-<createdTime>2021-11-11 01:12:08 UTC</createdTime>
+<createdTime>2021-12-16 00:18:15 UTC</createdTime>
 <ownerDesignName>ERD_for_SSMP</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -79,7 +53,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CFCD2BF6-1A8C-8ECD-1B2C-78ACA98EFEB2</attributeRef>
+<attributeRef>40CE552D-D019-F311-6731-2211E284CF28</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
