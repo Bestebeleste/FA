@@ -1,11 +1,20 @@
-# Sample Snack app
+# Подготовка среды. Hello World на React Native
+## Цель работы
+Получить навыки настройки среды для отладки приложений на React Native.
+## Задания для выполнения
+Перейдите на сайт https://snack.expo.io/ и установите на телефон приложение Expo. Отсканируйте QR-код и синхронизируйте Expo-редактор и ваше устройство.
+Используя стрелочную функцию (или класс), задайте компонент, который выведет на экран вашего устройства Hello World.
+Загрузить созданную программу на GitHub в репозиторий Student, используя формат в названии Фамилия (латинскими буквами)_1.
+## Контрольные вопросы:
+Можно ли писать в React Native все на JS? В React Native логика приложения пишется и работает на JavaScript, в то время как его интерфейс остается полностью нативным.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Есть ли в React Native объект кнопка? Да, есть, добавить ее можно с помощью:
+import { Button } from 'react-native';
+Ей можно задать цвет, текст, звук при нажатии, а также обработать, что будет делать кнопка после нажатия. Кнопку также можно вовсе выключить. Объект находится внутри View.
+## Выполнение Задания:
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+![image](https://user-images.githubusercontent.com/90910479/160073732-59b89df3-52e5-4446-8cd7-3d63bc901770.png)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Код 
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![image](https://user-images.githubusercontent.com/90910479/160073799-b377030a-c591-481c-8565-e45d572872cb.png)
