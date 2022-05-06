@@ -1,11 +1,11 @@
-# Sample Snack app
-
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+# Анимация в React Native
+## Задания для выполнения
+Используя официальную документацию https://reactnative.dev/docs/animated ознакомьтесь с синтаксисом  
+Ознакомьтесь с основными принципами анимации: https://infogra.ru/ui/12-printsipov-primeneniya-animatsii-v-polzovatelskih-interfejsah  
+Создайте анимацию для слайдера с различными картиками, добавьте другие компоненты на экран, используя созданные велкомскрины.   
+Создайте анимированный лаучскрин.  
+## Контрольные вопросы
+Что такое параллакс-эффект?  
+Это смещение близкого объекта относительно далекого при изменении угла зрения. Благодаря этому эффекту мы видим предметы в объеме, воспринимаем глубину и понимаем, что находится ближе, а что дальше. На сайтах изображение плоское, и дизайнер может только создать иллюзию объема. В этом может помочь параллакс-эффект.  
+## Приложение
+![animation](https://github.com/Bestebeleste/FA/blob/main/Android/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9F%D0%9820-4%20%D0%A1%D0%B5%D0%B2%D0%B5%D0%BD%20%D0%91%D0%B5%D0%BB%D0%B5%D0%BA%20%D0%90%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D1%8F/animation.gif)
