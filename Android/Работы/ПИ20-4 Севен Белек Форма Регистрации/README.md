@@ -1,11 +1,16 @@
-# Sample Snack app
+# Установка среды разработки
+## Цель работы
+В этом работе мы научимся создавать форму регистрации в React Native. 
+## Ресурсы для выполнения
+Векторный банк и редактор: https://icons8.com/illustrations/style--doobry  
+Таблица веб-цветов: https://colorscheme.ru/html-colors.html  
+Таблица иконок: https://zurb.com/playground/foundation-icon-fonts-3  
+## Задания для выполнения
+1. Создайте форму регистрации с экраном альтернативной авторизации в React Native.  
+2. Добавьте всплывающее сообщение для кнопок: «Регистрация/Авторизация прошла успешна».  
+3. Поделитесь ссылкой на проект в Expo. Загрузить созданное приложение на на GitHub в репозиторий Student, используя формат в названии Фамилия (латинскими буквами)_6.
+## Контрольные вопросы
+Какие основные свойства для выравнивания объектов на экране существуют?  
+alignSelf, alignContent, alignText, margin, padding
+## Приложение
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
