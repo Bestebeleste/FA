@@ -1,11 +1,11 @@
-# Sample Snack app
-
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+# Передача данных с формы
+## Цель работы
+В этом работе мы познакомимся со способами передавать данные с одного экрана на другой. 
+## Задания для выполнения
+Изучите реализованный пример: https://snack.expo.dev/49WY2dQMS.  
+Ознакомьтесь с описанием компонента ImageBackground  
+https://docs.expo.dev/ui-programming/image-background/  
+Используя реализованную навигацию для велком-скрина с регистрацией (лабораторная 7), создайте экран с приветствием, данные на который будут поступать с соседнего экрана.  
+Поделитесь ссылкой на проект в Expo. Загрузить созданное приложение на на GitHub в репозиторий Student, используя формат в названии Фамилия (латинскими буквами)_8.  
+## Приложение 
+![AEAE0596-4A31-47F3-B9CE-B7E089F28DE0](https://github.com/Bestebeleste/FA/blob/main/Android/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9F%D0%9820-4%20%D0%A1%D0%B5%D0%B2%D0%B5%D0%BD%20%D0%91%D0%B5%D0%BB%D0%B5%D0%BA%20%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%20%D1%84%D0%BE%D1%80%D0%BC%D1%8B/GIfGif.gif)
